@@ -1,0 +1,6 @@
+"Outputs" : {
+  "PrivateIp" : {
+    "Description" : "MyInstance Private IP Address",
+    "Value" : { "Fn::GetAtt" : [ "MyInstance", "PrivateIp" ] }
+  }
+}
